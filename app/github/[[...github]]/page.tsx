@@ -19,7 +19,7 @@ export default function gitHubList() {
                      <div className='border-b-2 border-b-black p-2' >
                         <h2 className='font-bold text-xl' > 김영욱(92212788) </h2>
                         < p className='pl-4' >● 깃허브: <Link href={`https://github.com/younguk03/nextjstest1.git`} className='hover:underline hover:text-blue-600'>https://github.com/younguk03/nextjstest1.git</Link></p>
-                        < p className='pl-4' >● vercel: <Link href={`https://nextjs-test1-ashy.vercel.app/`}>https://nextjs-test1-ashy.vercel.app/</Link></p>
+                        < p className='pl-4' >● vercel: <Link href={`https://nextjs-test1-ashy.vercel.app/`} className='hover:underline hover:text-blue-600'>https://nextjs-test1-ashy.vercel.app/</Link></p>
                      </div>
                      < div className='border-b-2 p-2 border-b-black' >
                         <h2 className='font-bold text-xl' > 박이슬(92450524) </h2>
@@ -28,8 +28,8 @@ export default function gitHubList() {
                      </div>
                      < div className='p-2' >
                         <h2 className='font-bold text-xl' > 김용섭 </h2>
-                        < p className='pl-4' >● 깃허브: </p>
-                        < p className='pl-4' >● vercel: </p>
+                        < p className='pl-4' >● 깃허브: <Link href={`https://github.com/yongseop712/kim-yong-seop.git`} className='hover:underline hover:text-blue-600'>https://github.com/yongseop712/kim-yong-seop.git</Link></p>
+                        < p className='pl-4' >● vercel: <Link href={`https://kim-yong-seop.vercel.app/`} className='hover:underline hover:text-blue-600'>https://kim-yong-seop.vercel.app/</Link></p>
                      </div>
                   </div>
                </div>
